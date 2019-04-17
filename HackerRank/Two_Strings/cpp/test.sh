@@ -2,5 +2,5 @@
 
 g++ main.cpp
 
-OUTPUT_PATH=./output ./a.out<sample-input
-cat output
+OUTPUT_PATH=./sample-output ./a.out<sample-input
+cat sample-output
