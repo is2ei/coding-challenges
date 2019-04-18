@@ -7,5 +7,15 @@
 
 ### Geeks for Geeks
 
+- [Count Inversions in an array | Set 1 (Using Merge Sort)](https://www.geeksforgeeks.org/counting-inversions/)
+- [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
 - [Minimum number of swaps required to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
 - [Number of GP (Geometric Progression) subsequences of size 3](https://www.geeksforgeeks.org/number-gp-geometric-progression-subsequences-size-3/)
+
+## Wikipedia
+
+- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+
+## Youtube
+
+- [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
