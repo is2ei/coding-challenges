@@ -12,10 +12,10 @@
 - [Minimum number of swaps required to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
 - [Number of GP (Geometric Progression) subsequences of size 3](https://www.geeksforgeeks.org/number-gp-geometric-progression-subsequences-size-3/)
 
-## Wikipedia
+### Wikipedia
 
 - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 
-## Youtube
+### Youtube
 
 - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
