@@ -6,6 +6,10 @@
 
 - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
 
+### Counting Sort
+
+- [Counting Sort | GeeksforGeeks](https://www.youtube.com/watch?v=7zuGmKfUt7s)
+
 ### Heap Sort
 
 - [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
@@ -17,6 +21,14 @@
 ### Merge Sort
 
 - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
+
+### Quick Sort
+
+- [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
+
+### Radix Sort
+
+- [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
 
 ### Selection Sort
 
