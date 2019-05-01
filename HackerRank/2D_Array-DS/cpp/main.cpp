@@ -2,13 +2,16 @@
 
 using namespace std;
 
-// Complete the hourglassSum function below.
-int hourglassSum(vector<vector<int>> arr) {
-    int max_sum = arr[0][0] + arr[0][1] + arr[0][2] + arr[1][1] + arr[2][0] + arr[2][1] + arr[2][2];
+int f(vector<vector<int>>& arr, int y, int x) {
+    return arr[y][x] + arr[y][x + 1] + arr[y][x + 2] + arr[y + 1][x + 1] + arr[y + 2][x] + arr[y + 2][x + 1] + arr[y + 2][x + 2];
+}
 
-    for (int i = 1; i < 5; i++) {
-        for (int j = 1; j < 5; j++) {
-            int sum = arr[i-1][j-1] + arr[i-1][j] + arr[i-1][j+1] + arr[i][j] + arr[i+1][j-1] + arr[i+1][j] + arr[i+1][j+1];
+int hourglassSum(vector<vector<int>> arr) {
+    int max_sum = f(arr, 0, 0);
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            int sum = f(arr, i, j);
             if (max_sum < sum) {
                 max_sum = sum;
             }
