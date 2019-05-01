@@ -4,17 +4,40 @@ using namespace std;
 
 vector<int> f(vector<int> arr) {
 
+    /**
+     * Brute force
+     */
+//    vector<int> result;
+//    for (int i = 0; i < arr.size(); i++) {
+//        int count = 0;
+//        for (int j = i; j >= 0; j--) {
+//            if (arr[i] >= arr[j]) {
+//                count++;
+//            } else {
+//                break;
+//            }
+//        }
+//        result.push_back(count);
+//    }
+
+    stack<int> st;
+    st.push(0);
+
     vector<int> result;
-    for (int i = 0; i < arr.size(); i++) {
-        int count = 0;
-        for (int j = i; j >= 0; j--) {
-            if (arr[i] >= arr[j]) {
-                count++;
-            } else {
-                break;
-            }
+    result.push_back(1);
+
+    for (int i = 1; i < arr.size(); i++) {
+        while (!st.empty() && arr[st.top()] <= arr[i]) {
+            st.pop();
         }
-        result.push_back(count);
+
+        if (st.empty()) {
+            result.push_back(i + 1);
+        } else {
+            result.push_back(i - st.top());
+        }
+
+        st.push(i);
     }
 
     return result;
