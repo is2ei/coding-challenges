@@ -6,26 +6,26 @@ vector<string> split_string(string);
 
 // Complete the minimumSwaps function below.
 int minimumSwaps(vector<int> arr) {
-    map<int, bool> m;
 
     int count = 0;
+    bool checked[100000] = {0};
     for (int i = 0; i < arr.size(); i++) {
-        if (m.find(i) != m.end() && m[i] == true) {
+        if (checked[i]) {
             continue;
         }
 
-        int tmp = 0;
+        int tmp_count = 0;
         int position = i;
         while (true) {
-            if (m.find(position) != m.end() && m[position] == true) {
-                count += tmp - 1;
+            if (checked[position] == true) {
+                count += tmp_count - 1;
                 break;
             }
 
-            m[position] = true;
+            checked[position] = true;
 
             position = arr[position] - 1;
-            tmp++;
+            tmp_count++;
         }
     }
 
