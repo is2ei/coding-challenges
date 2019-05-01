@@ -49,3 +49,7 @@
 ## DP
 
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
+
+### Math
+
+- [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
