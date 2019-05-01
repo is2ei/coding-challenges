@@ -4,11 +4,27 @@ using namespace std;
 
 vector<string> split_string(string);
 
-// Complete the rotLeft function below.
+namespace is2ei {
+
+    void rotateLeft(vector<int>& arr) {
+        if (arr.size() == 1) {
+            return;
+        }
+
+        int tmp = arr[0];
+        for (int i = 0; i < arr.size() - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[arr.size() - 1] = tmp;
+    }
+
+}
+
 vector<int> rotLeft(vector<int> a, int d) {
-    for (int i = 0; i < d; i++) {
-        a.push_back(a[0]);
-        a.erase(a.begin());
+
+    while (d > 0) {
+        is2ei::rotateLeft(a);
+        d--;
     }
 
     return a;
