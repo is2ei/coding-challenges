@@ -11,6 +11,7 @@
 ### Bucket Sort
 
 - [Bucket Sort | GeeksforGeeks](https://www.youtube.com/watch?v=VuXbEb5ywrU)
+- [バケットソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bucket-sort.html)
 
 ### Comb Sort
 
@@ -23,6 +24,7 @@
 ### Heap Sort
 
 - [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
+- [ヒープソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/heap-sort.html)
 
 ### Insertion Sort
 
@@ -37,10 +39,12 @@
 ### Quick Sort
 
 - [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
+- [クイックソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/quick-sort.html)
 
 ### Radix Sort
 
 - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
+- [基数ソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/radix-sort.html)
 
 ### Selection Sort
 
