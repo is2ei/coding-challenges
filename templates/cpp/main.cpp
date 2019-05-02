@@ -25,6 +25,18 @@ namespace is2ei {
         arr[arr.size() - 1] = tmp;
     }
 
+    void bubbleSort(vector<int>& arr) {
+        for (int i = 0; i < arr.size() - 1; i++) {
+            for (int j = arr.size() - 1; j > i; j--) {
+                if (arr[j - 1] > arr[j]) {
+                    int tmp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = tmp;
+                }
+            }
+        }
+    }
+
 }
 
 int main() {

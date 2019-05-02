@@ -4,7 +4,9 @@
 
 ### Bubble Sort
 
+- [Bubble sort - Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
 - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
+- [バブルソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bubble-sort.html)
 
 ### Bucket Sort
 

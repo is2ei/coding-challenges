@@ -2,23 +2,53 @@
 
 using namespace std;
 
+namespace is2ei {
+
+    void rotateLeft(vector<int>& arr) {
+        if (arr.size() == 1) {
+            return;
+        }
+
+        int tmp = arr[0];
+        for (int i = 0; i < arr.size() - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[arr.size() - 1] = tmp;
+    }
+
+    void bubbleSort(vector<int>& arr) {
+        for (int i = 0; i < arr.size() - 1; i++) {
+            for (int j = arr.size() - 1; j > i; j--) {
+                if (arr[j - 1] > arr[j]) {
+                    int tmp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = tmp;
+                }
+            }
+        }
+    }
+
+}
+
 vector<string> split_string(string);
 
 // Complete the countSwaps function below.
 void countSwaps(vector<int> a) {
     int count_swap = 0;
-    for (int i = 0; i < a.size(); i++) {
-        for (int j = 0; j < a.size() -1; j++) {
-            if (a[j] > a[j + 1]) {
-                swap(a[j], a[j + 1]);
+    for (int i = 0; i < a.size() - 1; i++) {
+        for (int j = a.size() - 1; j > i; j--) {
+            if (a[j - 1] > a[j]) {
+                int tmp = a[j - 1];
+                a[j - 1] = a[j];
+                a[j] = tmp;
                 count_swap++;
             }
         }
     }
 
-    cout << "Array is sorted in " << count_swap << " swaps.\n";
-    cout << "First Element: " << a[0] << "\n";
-    cout << "Last Element: " << a[a.size() - 1] << "\n";
+    cout << "Array is sorted in " << count_swap << " swaps." << endl;
+    cout << "First Element: " << a[0] << endl;
+    cout << "Last Element: " << a[a.size() - 1] << endl;
 }
 
 int main()
