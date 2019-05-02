@@ -37,6 +37,54 @@ namespace is2ei {
         }
     }
 
+    void merge(vector<int>& left_arr, vector<int>& right_arr, vector<int>& arr) {
+        int i = 0;
+        int j = 0;
+        while (i < left_arr.size() && j < right_arr.size()) {
+            if (left_arr[i] < right_arr[j]) {
+                arr[i + j] = left_arr[i];
+                i++;
+            } else {
+                arr[i + j] = right_arr[j];
+                j++;
+            }
+        }
+
+        while (i < left_arr.size()) {
+            arr[i + j] = left_arr[i];
+            i++;
+        }
+
+        while (j < right_arr.size()) {
+            arr[i + j] = right_arr[j];
+            j++;
+        }
+    }
+
+    void mergeSort(vector<int>& arr) {
+        if (arr.size() <= 1) {
+            return;
+        }
+
+        int left_size = arr.size() / 2;
+        int right_size = arr.size() - left_size;
+
+        vector<int> left_arr;
+        vector<int> right_arr;
+
+        for (int i = 0; i < left_size; i++) {
+            left_arr.push_back(arr[i]);
+        }
+
+        for (int i = 0; i < right_size; i++) {
+            right_arr.push_back(arr[left_size + i]);
+        }
+
+        mergeSort(left_arr);
+        mergeSort(right_arr);
+        merge(left_arr, right_arr, arr);
+    }
+
 }
 
 int main() {

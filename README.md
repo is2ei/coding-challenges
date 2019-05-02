@@ -12,7 +12,7 @@
 
 - [Bucket Sort | GeeksforGeeks](https://www.youtube.com/watch?v=VuXbEb5ywrU)
 
-###
+### Comb Sort
 
 - [Comb Sort | GeeksforGeeks](https://www.youtube.com/watch?v=n51GFZHXlYY)
 
@@ -30,7 +30,9 @@
 
 ### Merge Sort
 
+- [Merge sort - Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
 - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
+- [マージソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/merge-sort.html)
 
 ### Quick Sort
 
