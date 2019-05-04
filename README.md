@@ -11,6 +11,7 @@
     - [Linked List - Implementation in C/C++ - mycodeschool](https://www.youtube.com/watch?v=vcQIFT79_50)
     - [Linked List in C/C++ - Inserting a node at beginning - mycodeschool](https://www.youtube.com/watch?v=cAZ8CyDY56s)
     - [Linked List in C/C++ - Insert a node at nth position - mycodeschool](https://www.youtube.com/watch?v=IbvsNF22Ud0)
+    - [Linked List in C/C++ - Delete a node at nth position - mycodeschool](https://www.youtube.com/watch?v=Y0n86K43GO4)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
 
 
