@@ -5,6 +5,9 @@
 - [Linked list - Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [Linked Lists](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 - [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+- Videos
+    - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
+
 
 ## Sort
 
