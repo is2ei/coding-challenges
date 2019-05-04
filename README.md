@@ -67,3 +67,7 @@
 ### Math
 
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
+
+## Misc
+
+- [Digital root - Wikipedia](https://en.wikipedia.org/wiki/Digital_root)
