@@ -16,7 +16,12 @@
     - [Print elements of a linked list in forward and reverse order using recursion - mycodeschool](https://www.youtube.com/watch?v=K7J3nCeRC80)
     - [Reverse a linked list using recursion - mycodeschool](https://www.youtube.com/watch?v=KYH83T4q6Vs)
     - [Reverse a string or linked list using stack. - mycodeschool](https://www.youtube.com/watch?v=hNP72JdOIgY)
+    - [Data structures: Introduction to Doubly Linked List - mycodeschool](https://www.youtube.com/watch?v=JdQeNxWCguQ)
+    - [Doubly Linked List - Implementation in C/C++ - mycodeschool](https://www.youtube.com/watch?v=VOQNf1VxU3Q)
+    - [Data structures: Linked List implementation of Queue - mycodeschool](https://www.youtube.com/watch?v=A5_XdiK4J8A)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
+
+## Binary Tree
 
 
 ## Sort
@@ -73,13 +78,16 @@
 
 - [Shell Sort | GeeksforGeeks](https://www.youtube.com/watch?v=SHcPqUe2GZM)
 
+
 ## DP
 
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
 
-### Math
+
+## Math
 
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
+
 
 ## Misc
 
