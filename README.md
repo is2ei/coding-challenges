@@ -20,6 +20,7 @@
     - [Doubly Linked List - Implementation in C/C++ - mycodeschool](https://www.youtube.com/watch?v=VOQNf1VxU3Q)
     - [Data structures: Linked List implementation of Queue - mycodeschool](https://www.youtube.com/watch?v=A5_XdiK4J8A)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
+    - [Delete alternate nodes of a Linked List | GeeksforGeeks](https://www.youtube.com/watch?v=q5_qDnl7pSo)
     - [Sort a linked list of 0s, 1s and 2s by changing links | GeeksforGeeks](https://www.youtube.com/watch?v=TXRoiRMWiOE)
     - [Print alternate nodes of a linked list using recursion | GeeksforGeeks](https://www.youtube.com/watch?v=ksyUny54Avk)
     - [Reverse each word in a linked list node | GeeksforGeeks](https://www.youtube.com/watch?v=ybT1uiWQYAs)
