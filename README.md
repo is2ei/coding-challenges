@@ -20,6 +20,7 @@
     - [Doubly Linked List - Implementation in C/C++ - mycodeschool](https://www.youtube.com/watch?v=VOQNf1VxU3Q)
     - [Data structures: Linked List implementation of Queue - mycodeschool](https://www.youtube.com/watch?v=A5_XdiK4J8A)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
+    - [First common element in two linked lists | GeeksforGeeks](https://www.youtube.com/watch?v=3MpoDZBzSMA)
     - [Reverse first K elements of given linked list | GeeksforGeeks](https://www.youtube.com/watch?v=xSKFS5OA5JQ)
     - [Reverse a Linked List in groups of given size | Set 2 | GeeksforGeeks](https://www.youtube.com/watch?v=aF9PGkR0dWU)
 - OnlineJudge
