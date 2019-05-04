@@ -59,6 +59,15 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
 
 // Complete the findMergeNode function below.
 
+int length(SinglyLinkedListNode* head) {
+    int result = 0;
+    while (head != nullptr) {
+        result++;
+        head = head->next;
+    }
+    return result;
+}
+
 /*
  * For your reference:
  *
@@ -69,24 +78,68 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
  *
  */
 int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
-    if (head1 == head2) {
-        return head1->data;
+
+    /**
+     * Brute force
+     */    
+//    while (head1 != nullptr) { // O(mn)
+//        SinglyLinkedListNode* h2 = head2;
+//        while (h2 != nullptr) {
+//            if (head1 == h2) {
+//                return head1->data;
+//            }
+//            h2 = h2->next;
+//        }
+//        head1 = head1->next;
+//    }
+//    // Overall Complexity -> O(mn)
+
+    /**
+     * Optimized brute force
+     */
+//    std::set<SinglyLinkedListNode*> addresses;
+//    while (head1 != nullptr) { // O(n log n)
+//        addresses.insert(head1); // O(log n)
+//        head1 = head1->next;
+//    }
+//
+//    while (head2 != nullptr) { // O(m log n)
+//        if (addresses.find(head2) != addresses.end()) {
+//            return head2->data;
+//        }
+//        head2 = head2->next;
+//    }
+//    // Overall Complexity -> O(m log n + n log n)
+
+    /**
+     * Efficient approach
+     */
+    int length1 = length(head1); // O(m)
+    int length2 = length(head2); // O(n)
+
+    if (length1 > length2) {
+        SinglyLinkedListNode* tmp = head2;
+        head2 = head1;
+        head1 = tmp;
     }
 
-    while(head1 != nullptr) {
-        SinglyLinkedListNode* next2 = head2->next;
-        while(next2 != nullptr) {
-            if (head1 == next2) {
-                return head1->data;
-            }
-            next2 = next2->next;
+    int diff = std::abs(length1 - length2);
+    while (diff--) { // O(m + n)
+        head2 = head2->next;
+    }
+
+    while (head1 != nullptr && head2 != nullptr) {
+        if (head1 == head2) {
+            return head1->data;
         }
-
         head1 = head1->next;
+        head2 = head2->next;
     }
+    // Overall time complexity = O(m + n)
+    // Overall space complexity = O(1)
 
-    // Two separate linked lists that are guaranteed to converge
-    return -1;
+    // no merge point
+    return -1; 
 }
 
 int main()
