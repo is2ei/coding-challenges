@@ -7,6 +7,7 @@
 - [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
 - Videos
     - [Introduction to linked list - mycodeschool](https://www.youtube.com/watch?v=NobHlGUjV3g)
+    - [Data Structures: Arrays vs Linked Lists - mycodeschool](https://www.youtube.com/watch?v=lC-yYCOnN8Q)
     - [Linked List in C/C++ - Insert a node at nth position - mycodeschool](https://www.youtube.com/watch?v=IbvsNF22Ud0)
     - [Linked List in C/C++ - Inserting a node at beginning - mycodeschool](https://www.youtube.com/watch?v=cAZ8CyDY56s)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
