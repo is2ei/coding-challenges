@@ -14,6 +14,7 @@
     - [Linked List in C/C++ - Delete a node at nth position - mycodeschool](https://www.youtube.com/watch?v=Y0n86K43GO4)
     - [Reverse a linked list - Iterative method - mycodeschool](https://www.youtube.com/watch?v=sYcOK51hl-A)
     - [Print elements of a linked list in forward and reverse order using recursion - mycodeschool](https://www.youtube.com/watch?v=K7J3nCeRC80)
+    - [Reverse a linked list using recursion - mycodeschool](https://www.youtube.com/watch?v=KYH83T4q6Vs)
     - [Find merge point of two linked list - mycodeschool](https://www.youtube.com/watch?v=gE0GopCq378&t=57s)
 
 
