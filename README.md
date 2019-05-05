@@ -88,6 +88,7 @@
 ## Tree
 
 - Videos
+    - [Delete a node from Binary Search Tree - mycodeschool](https://www.youtube.com/watch?v=gcULXE7ViZw)
     - [Find height of a binary tree - mycodeschool](https://www.youtube.com/watch?v=_pnqMz5nrRs)
     - [Inorder Successor in a binary search tree](https://www.youtube.com/watch?v=5cPbNCrdotA)
 - OnlineJudge
