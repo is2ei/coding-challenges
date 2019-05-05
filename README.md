@@ -1,5 +1,10 @@
 # coding-challenges
 
+## Hash Table
+
+- OnlineJudge
+    - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
+
 ## Linked List
 
 - [Linked list - Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
