@@ -88,6 +88,8 @@
 ## Tree
 
 - Videos
+    - [Binary tree traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4&t=12s)
+    - [Check if a binary tree is binary search tree or not](https://www.youtube.com/watch?v=yEwSGhSsT0U)
     - [Delete a node from Binary Search Tree - mycodeschool](https://www.youtube.com/watch?v=gcULXE7ViZw)
     - [Find height of a binary tree - mycodeschool](https://www.youtube.com/watch?v=_pnqMz5nrRs)
     - [Inorder Successor in a binary search tree](https://www.youtube.com/watch?v=5cPbNCrdotA)
