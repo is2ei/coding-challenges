@@ -89,6 +89,7 @@
 
 - Videos
     - [Find height of a binary tree - mycodeschool](https://www.youtube.com/watch?v=_pnqMz5nrRs)
+    - [Inorder Successor in a binary search tree](https://www.youtube.com/watch?v=5cPbNCrdotA)
 - OnlineJudge
     - [Tree - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&badge_type=problem-solving)
     - [Tree - LeetCode](https://leetcode.com/tag/tree/)
