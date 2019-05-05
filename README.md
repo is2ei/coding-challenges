@@ -110,6 +110,13 @@
     - [Stack - LeetCode](https://leetcode.com/tag/stack/)
 
 
+## Heap
+
+- Videos
+- OnlineJudge
+    - [Heap - LeetCode](https://leetcode.com/tag/heap/)
+
+
 ## Sort
 
 ### Bubble Sort
