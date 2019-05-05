@@ -43,12 +43,12 @@ class Node {
 */
     int height(Node* root) {
 
-      /**
-       * Recursive
-       * O(n)
-       */
-//      if (root == nullptr) {
-//        return -1;
+       /**
+        * Recursive
+        * O(n)
+        */
+//        if (root == nullptr) {
+//            return -1;
 //        }
 //
 //        return std::max(height(root->left), height(root->right)) + 1;
