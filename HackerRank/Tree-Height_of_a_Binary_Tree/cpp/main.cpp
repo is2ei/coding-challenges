@@ -32,6 +32,7 @@ class Solution {
                return root;
            }
         }
+
 /*The tree node has data, left child and right child 
 class Node {
     int data;
@@ -41,42 +42,69 @@ class Node {
 
 */
     int height(Node* root) {
-        // Write your code here.
 
-        vector<Node *> nodes;
-        if (root->left != nullptr) {
-            nodes.push_back(root->left);
-        }
-        if (root->right != nullptr) {
-            nodes.push_back(root->right);
-        }
+      /**
+       * Recursive
+       * O(n)
+       */
+//      if (root == nullptr) {
+//        return -1;
+//        }
+//
+//        return std::max(height(root->left), height(root->right)) + 1;
 
-        vector<int> heights;
-
-        int max_h = 0;
-        int h = 0;
-        while (nodes.size() > 0) {
-            h++;
-            Node* n = nodes[nodes.size() - 1];
-            nodes.pop_back();
+        /**
+         * Iterative
+         * O(n)
+         */
+        int max_height = 0;
+        int height = -1;
+        stack<Node*> st;
+        st.push(root);
+        while (!st.empty()) {
+            Node* n = st.top();
+            st.pop();
+            height++;
 
             if (n->left == nullptr && n->right == nullptr) {
-                if (max_h < h) {
-                    max_h = h;
-                    h = 0;
-                    continue;
+                if (max_height < height) {
+                    max_height = height;
+                    height = 0;
                 }
+                continue;
             }
 
             if (n->left != nullptr) {
-                nodes.push_back(n->left);
+                st.push(n->left);
             }
             if (n->right != nullptr) {
-                nodes.push_back(n->right);
+                st.push(n->right);
             }
         }
 
-        return max_h;
+        return max_height;
     }
 
 }; //End of Solution
+
+int main() {
+  
+    Solution myTree;
+    Node* root = NULL;
+    
+    int t;
+    int data;
+
+    std::cin >> t;
+
+    while(t-- > 0) {
+        std::cin >> data;
+        root = myTree.insert(root, data);
+    }
+  
+    int height = myTree.height(root);
+    
+  	std::cout << height;
+
+    return 0;
+}
