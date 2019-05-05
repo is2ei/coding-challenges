@@ -168,6 +168,9 @@
 ## DP
 
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
+- Videos
+- OnlineJudge
+    - [Dynamic Programming - LeetCode](https://leetcode.com/tag/dynamic-programming/)
 
 
 ## Math
