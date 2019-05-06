@@ -104,6 +104,11 @@
     - [Tree Traversals | GeeksforGeeks](https://www.youtube.com/watch?v=IpyCqRmaKW4&t=277s)
     - [Level Order Tree Traversal | GeeksforGeeks](https://www.youtube.com/watch?v=kQ-aoKbGKSo&t=16s)
     - [Inorder Tree Traversal without Recursion | GeeksforGeeks](https://www.youtube.com/watch?v=VsxLHGUqAKs&t=12s)
+    - [Prim's Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=PzznKcMyu0Y)
+    - [Applications of Minimum Spanning Tree Problem | GeeksforGeeks](https://www.youtube.com/watch?v=0tBzHYoTfiY)
+    - [Binary Search Tree | Set 1 (Search and Insertion) | GeeksforGeeks](https://www.youtube.com/watch?v=qYo8BVxtoH4)
+    - [Binary Search Tree | Set 2 (Delete) | GeeksforGeeks](https://www.youtube.com/watch?v=puyl7MBqPIg)
+    - [Kruskal’s Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=3rrNH_AizMA)
 - OnlineJudge
     - [Tree - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&badge_type=problem-solving)
     - [Tree - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&page=1&sortBy=accuracy)
@@ -115,6 +120,13 @@
 - Videos
 - OnlineJudge
     - [Stack - LeetCode](https://leetcode.com/tag/stack/)
+
+
+## Queue
+
+- Videos
+- OnlineJudge
+    - [Queue - LeetCode](https://leetcode.com/tag/queue/)
 
 
 ## Heap
