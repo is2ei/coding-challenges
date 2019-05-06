@@ -92,6 +92,7 @@
 
 ## Tree
 
+- [プログラミングコンテストでのデータ構造 2　～平衡二分探索木編～](https://www.slideshare.net/iwiwi/2-12188757)
 - Videos
     - [Binary tree traversal: Preorder, Inorder, Postorder - mycodeschool](https://www.youtube.com/watch?v=gm8DUJJhmY4&t=12s)
     - [Check if a binary tree is binary search tree or not - mycodeschool](https://www.youtube.com/watch?v=yEwSGhSsT0U)
