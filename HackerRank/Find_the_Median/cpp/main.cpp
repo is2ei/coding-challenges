@@ -4,6 +4,30 @@ using namespace std;
 
 vector<string> split_string(string);
 
+int partition(vector<int>& arr, int lo, int hi) {
+    int pivot = arr[hi];
+    int idx = lo;
+    for (int i = lo; i < hi; i++) {
+        if (arr[i] < pivot) {
+            std::swap(arr[idx], arr[i]);
+            idx++;
+        }
+    }
+
+    std::swap(arr[idx], arr[hi]);
+    return idx;
+}
+
+void quickSort(vector<int>& arr, int lo, int hi) {
+    if (lo >= hi) {
+        return;
+    }
+
+    int p = partition(arr, lo, hi);
+    quickSort(arr, lo, p - 1);
+    quickSort(arr, p + 1, hi);
+}
+
 // Complete the findMedian function below.
 int findMedian(vector<int> arr) {
 
@@ -62,17 +86,24 @@ int findMedian(vector<int> arr) {
      * Counting sort
      * O(n + k)
      */
-    int count[200000] = {0};
-    for (int i = 0; i < arr.size(); i++) {
-        count[arr[i]]++;
-    }
-    int idx = 0;
-    for (int i = 0; i < 200000; i++) {
-        for (int j = 0 ; j < count[i]; j++) {
-            arr[idx] = i;
-            idx++;
-        }
-    }
+//    int count[200000] = {0};
+//    for (int i = 0; i < arr.size(); i++) {
+//        count[arr[i]]++;
+//    }
+//    int idx = 0;
+//    for (int i = 0; i < 200000; i++) {
+//        for (int j = 0 ; j < count[i]; j++) {
+//            arr[idx] = i;
+//            idx++;
+//        }
+//    }
+
+    /**
+     * Quick sort
+     * O(n log n)
+     */
+    quickSort(arr, 0, arr.size() - 1);
+
 
     // For debugging
 //    for (int i = 0; i < arr.size(); i++) {

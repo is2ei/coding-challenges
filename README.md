@@ -166,7 +166,8 @@
     - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
     - [マージソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/merge-sort.html)
 - Quick Sort
-    - [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
+    - [Quicksort - Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
+    - [QuickSort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/)
     - [クイックソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/quick-sort.html)
 - Radix Sort
     - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
@@ -178,6 +179,7 @@
     - [Shell Sort | GeeksforGeeks](https://www.youtube.com/watch?v=SHcPqUe2GZM)
 - Videos
     - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
+    - [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
 - OnlineJudge
     - [Sorting - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
 
