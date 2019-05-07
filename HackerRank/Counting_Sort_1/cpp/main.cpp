@@ -7,22 +7,17 @@ vector<string> split_string(string);
 // Complete the countingSort function below.
 vector<int> countingSort(vector<int> arr) {
 
-    int max = arr[0];
+    int count[100000] = {0};
     for (int i = 0; i < arr.size(); i++) {
-        if (max < arr[i]) {
-            max = arr[i];
-        }
+        count[arr[i]]++;
     }
 
-    vector<int> v;
-    for (int i = 0; i <= max; i++) {
-        v.push_back(0);
-    }
-    for (int i = 0; i < arr.size(); i++) {
-        v[arr[i]]++;
+    vector<int> result;
+    for (int i = 0; i < 100; i++) {
+        result.push_back(count[i]);
     }
 
-    return v;
+    return result;
 }
 
 int main()

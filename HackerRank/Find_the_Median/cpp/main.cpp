@@ -7,15 +7,84 @@ vector<string> split_string(string);
 // Complete the findMedian function below.
 int findMedian(vector<int> arr) {
 
-    sort(arr.begin(), arr.end());
+    /**
+     * Bubble sort
+     * O(n^2)
+     */
+//    bool swapped = false;
+//    for (int i = 0; i < arr.size(); i++) {
+//        for (int j = arr.size() - 1; j > i; j--) {
+//            if (arr[j] < arr[j - 1]) {
+//                std::swap(arr[j], arr[j - 1]);
+//                swapped = true;
+//            }
+//        }
+//        if (!swapped) {
+//            break;
+//        }
+//    }
 
-    if (arr.size() % 2 != 0) {
-        return arr[arr.size() / 2];
-    } else {
-        return (arr[arr.size() / 2] + arr[arr.size() / 2 + 1]) / 2;
+    /**
+     * Selection sort
+     * O(n^2)
+     */
+//    for (int i = 0; i < arr.size() - 1; i++) {
+//        int min_idx = i;
+//        for (int j = i + 1; j < arr.size(); j++) {
+//            if (arr[min_idx] > arr[j]) {
+//                min_idx = j;
+//            }
+//        }
+//        if (i != min_idx) {
+//            std::swap(arr[i], arr[min_idx]);
+//        }
+//    }
+
+    /**
+     * Insertion sort
+     * O(n^2)
+     */
+//    for (int i = 1; i < arr.size(); i++) {
+//        if (arr[i - 1] < arr[i]) {
+//            continue;
+//        }
+//
+//        int tmp = arr[i];
+//        int idx = i;
+//        while (idx > 0 && tmp < arr[idx - 1]) {
+//            arr[idx] = arr[idx - 1];
+//            idx--;
+//        }
+//        arr[idx] = tmp;
+//    }
+
+    /**
+     * Counting sort
+     * O(n + k)
+     */
+    int count[200000] = {0};
+    for (int i = 0; i < arr.size(); i++) {
+        count[arr[i]]++;
+    }
+    int idx = 0;
+    for (int i = 0; i < 200000; i++) {
+        for (int j = 0 ; j < count[i]; j++) {
+            arr[idx] = i;
+            idx++;
+        }
     }
 
-    return 0;
+    // For debugging
+//    for (int i = 0; i < arr.size(); i++) {
+//        cout << arr[i] << " ";
+//    }
+//    cout << endl;
+
+    if (arr.size() % 2 == 0) {
+        return (arr[arr.size() / 2 - 1] + arr[arr.size() / 2]) / 2;
+    }
+
+    return arr[arr.size() / 2];
 }
 
 int main()

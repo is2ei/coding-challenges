@@ -4,31 +4,27 @@ using namespace std;
 
 vector<string> split_string(string);
 
+void printResult(vector<int> arr) {
+    for (int i = 0; i < arr.size() - 1; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << arr[arr.size() - 1] << endl;
+}
+
 // Complete the insertionSort2 function below.
 void insertionSort2(int n, vector<int> arr) {
 
-    int position = 0;
-    while (position < arr.size() - 1) {
-
-        if (arr[position] > arr[position + 1]) {
-            int tmp = arr[position + 1];
-            arr[position + 1] = arr[position];
-            for (int i = position; i >= 0; i--) {
-                arr[i + 1] = arr[i];
-                if (i == 0 || arr[i - 1] <= tmp) {
-                    arr[i] = tmp;
-                    break;
-                }
-            }
+    for (int i = 1; i < arr.size(); i++) {
+        int tmp = arr[i];
+        int idx = i;
+        while (idx > 0 && tmp < arr[idx - 1]) {
+            arr[idx] = arr[idx - 1];
+            idx--;
         }
-
-        for (int i = 0; i < arr.size() - 1; i++) {
-            cout << arr[i] << " ";
-        }
-        cout << arr[arr.size() - 1] << endl;
-
-        position++;
+        arr[idx] = tmp;
+        printResult(arr);
     }
+
 }
 
 int main()

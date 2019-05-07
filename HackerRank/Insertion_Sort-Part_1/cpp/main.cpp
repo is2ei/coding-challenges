@@ -4,50 +4,32 @@ using namespace std;
 
 vector<string> split_string(string);
 
+void printResult(vector<int> arr) {
+    for (int i = 0; i < arr.size() - 1; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << arr[arr.size() - 1] << endl;
+}
+
 // Complete the insertionSort1 function below.
 void insertionSort1(int n, vector<int> arr) {
 
-    bool swapped = true;
-    while (swapped) {
-        swapped = false;
-
-        int tmp;
-        int position;
-        for (int i = 0; i < arr.size() - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                tmp = arr[i + 1];
-                position = i;
-                swapped = true;
-                arr[i + 1] = arr[i];
-                break;
-            }
+    for (int i = arr.size() - 1; i > 0; i--) {
+        if (arr[i] > arr[i - 1]) {
+            continue;
         }
 
-        if (!swapped) {
-            break;
+        int tmp = arr[i];
+        int idx = i;
+        while (idx > 0 && tmp < arr[idx - 1]) {
+            arr[idx] = arr[idx - 1];
+            idx--;
+            printResult(arr);
         }
-
-        while (true) {
-            for (int i = 0; i < arr.size() - 1; i++) {
-                cout << arr[i] << " ";
-            }
-            cout << arr[arr.size() - 1] << endl;
-
-            if (position == 0 || arr[position - 1] <= tmp) {
-                arr[position] = tmp;
-                break;
-            }
-
-            arr[position] = arr[position - 1]; 
-
-            position--;
-        }
-
-        for (int i = 0; i < arr.size() - 1; i++) {
-            cout << arr[i] << " ";
-        }
-        cout << arr[arr.size() - 1] << endl;
+        arr[idx] = tmp;
+        printResult(arr);
     }
+
 }
 
 int main()
