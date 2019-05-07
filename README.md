@@ -11,7 +11,6 @@
     - [Singly Linked List - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)
 - [Linked list - Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [Linked Lists](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
-- [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
 - [線形リスト](http://www.cc.kyoto-su.ac.jp/~yamada/ap/list.html)
 - [プログラミング通論’18＃7 –単連結リスト](http://www.edu.cc.uec.ac.jp/~ka002689/prog18/siryou/ohp07.pdf)
 - Videos
