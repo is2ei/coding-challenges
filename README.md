@@ -184,6 +184,7 @@
     - [Sorting - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
     - [Sort - LeetCode](https://leetcode.com/tag/sort/)
 
+
 ## Recursion
 
 - OnlineJudge
@@ -199,8 +200,15 @@
 
 
 ## Greedy
+
 - OnlineJudge
     - [Greedy - LeetCode](https://leetcode.com/tag/greedy/)
+
+
+## Bit Manipulation
+
+- OnlineJudge
+    - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
 
 ## Math
