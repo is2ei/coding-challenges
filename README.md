@@ -144,7 +144,7 @@
 ## Sort
 - Bubble Sort
     - [Bubble sort - Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
-    - [Bubble Sort - GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
+    - [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/)
     - [Recursive Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/recursive-bubble-sort/)
     - [バブルソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bubble-sort.html)
 - Bucket Sort
@@ -176,6 +176,8 @@
     - [Selection Sort - GeeksforGeeks](https://www.youtube.com/watch?v=xWBP4lzkoyM)
 - Shell Sort
     - [Shell Sort | GeeksforGeeks](https://www.youtube.com/watch?v=SHcPqUe2GZM)
+- Videos
+    - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
 - OnlineJudge
     - [Sorting - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
 

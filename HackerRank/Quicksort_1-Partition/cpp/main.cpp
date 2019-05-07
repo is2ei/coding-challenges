@@ -7,28 +7,30 @@ vector<string> split_string(string);
 // Complete the quickSort function below.
 vector<int> quickSort(vector<int> arr) {
 
-    int p = arr[0];
+    int equal = arr[0];
 
-    vector<int> left;
-    vector<int> right;
-    for (int i = 0; i < arr.size(); i++) {
-        if (arr[i] < p) {
-            left.push_back(arr[i]);
-        } else if (arr[i] > p) {
-            right.push_back(arr[i]);
+    queue<int> left;
+    queue<int> right;
+    for (int i = 1; i < arr.size(); i++) {
+        if (equal < arr[i]) {
+            right.push(arr[i]);
+        } else {
+            left.push(arr[i]);
         }
     }
 
-    vector<int> v;
-    for (int i = 0; i < left.size(); i++) {
-        v.push_back(left[i]);
+    vector<int> result;
+    while (!left.empty()) {
+        result.push_back(left.front());
+        left.pop();
     }
-    v.push_back(p);
-    for (int i = 0; i < right.size(); i++) {
-        v.push_back(right[i]);
+    result.push_back(equal);
+    while (!right.empty()) {
+        result.push_back(right.front());
+        right.pop();
     }
 
-    return v;
+    return result;
 }
 
 int main()
