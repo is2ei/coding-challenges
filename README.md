@@ -15,6 +15,8 @@
 ## Heap
 
 - [Heap Data Structure- GeeksforGeeks](https://www.geeksforgeeks.org/heap-data-structure/)
+- [An array implementation of a heap](https://cs.nyu.edu/courses/spring12/CSCI-GA.3033-014/Assignment3/heap.html)
+- [ヒープ : データ構造 - ソースコード探検隊](https://www.codereading.com/algo_and_ds/ds/heap.html)
 - Videos
 - OnlineJudge
     - [Heap - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Heap&page=1&sortBy=accuracy)
