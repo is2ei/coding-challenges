@@ -17,6 +17,7 @@
 - [Heap Data Structure- GeeksforGeeks](https://www.geeksforgeeks.org/heap-data-structure/)
 - Videos
 - OnlineJudge
+    - [Heap - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Heap&page=1&sortBy=accuracy)
     - [Heap - LeetCode](https://leetcode.com/tag/heap/)
 
 
