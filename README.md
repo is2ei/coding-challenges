@@ -2,6 +2,7 @@
 
 ## Array
 
+- [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
 - OnlineJudge
     - [Array - LeetCode](https://leetcode.com/tag/array/)
 
@@ -9,6 +10,15 @@
 
 - OnlineJudge
     - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
+
+
+## Heap
+
+- [Heap Data Structure- GeeksforGeeks](https://www.geeksforgeeks.org/heap-data-structure/)
+- Videos
+- OnlineJudge
+    - [Heap - LeetCode](https://leetcode.com/tag/heap/)
+
 
 ## Linked List
 
@@ -18,6 +28,9 @@
 - [Linked Lists](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 - [線形リスト](http://www.cc.kyoto-su.ac.jp/~yamada/ap/list.html)
 - [プログラミング通論’18＃7 –単連結リスト](http://www.edu.cc.uec.ac.jp/~ka002689/prog18/siryou/ohp07.pdf)
+- SkipList
+    - [Skip list - Wikipedia](https://en.wikipedia.org/wiki/Skip_list)
+    - [Lecture 12: Skip Lists - MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/lecture-12-skip-lists/)
 - Videos
     - [Introduction to linked list - mycodeschool](https://www.youtube.com/watch?v=NobHlGUjV3g)
     - [Data Structures: Arrays vs Linked Lists - mycodeschool](https://www.youtube.com/watch?v=lC-yYCOnN8Q)
@@ -137,13 +150,6 @@
 - Videos
 - OnlineJudge
     - [Queue - LeetCode](https://leetcode.com/tag/queue/)
-
-
-## Heap
-
-- Videos
-- OnlineJudge
-    - [Heap - LeetCode](https://leetcode.com/tag/heap/)
 
 
 ## Sort
