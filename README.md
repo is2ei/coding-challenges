@@ -172,6 +172,7 @@
 - Heap Sort
     - [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
     - [ヒープソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/heap-sort.html)
+    - [ヒープソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/heapsort.html)
 - Insertion Sort
     - [Insertion sort - Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
     - [Insertion Sort - GeeksforGeeks](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
@@ -179,10 +180,12 @@
     - [Merge sort - Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
     - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
     - [マージソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/merge-sort.html)
+    - [マージソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/mergesort.html)
 - Quick Sort
     - [Quicksort - Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
     - [QuickSort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/)
     - [クイックソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/quick-sort.html)
+    - [クイックソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/quicksort.html)
 - Radix Sort
     - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
     - [基数ソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/radix-sort.html)
