@@ -19,8 +19,16 @@
 - [ヒープ : データ構造 - ソースコード探検隊](https://www.codereading.com/algo_and_ds/ds/heap.html)
 - Videos
 - OnlineJudge
+    - [Heap - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=heap)
     - [Heap - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Heap&page=1&sortBy=accuracy)
     - [Heap - LeetCode](https://leetcode.com/tag/heap/)
+
+
+## Graph
+
+- [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- OnlineJudge
+    - [Graph - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Graph&page=1)
 
 
 ## Linked List
@@ -230,6 +238,7 @@
 
 ## Math
 
+- [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
 
 
