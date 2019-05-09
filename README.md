@@ -227,11 +227,13 @@
     - [Backtracking - LeetCode](https://leetcode.com/tag/backtracking/)
 
 
-## DP
+## Dynamic Programming
 
+- [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
 - Videos
 - OnlineJudge
+    - [Dynamic Programming - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Dynamic%20Programming&page=1&sortBy=accuracy)
     - [Dynamic Programming - LeetCode](https://leetcode.com/tag/dynamic-programming/)
 
 
