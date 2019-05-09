@@ -4,6 +4,8 @@
 
 - [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
 - OnlineJudge
+    - [Arrays - HackerRank](https://www.hackerrank.com/domains/data-structures?filters[subdomains][]=arrays)
+    - [Arrays - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Arrays&page=1&sortBy=accuracy)
     - [Array - LeetCode](https://leetcode.com/tag/array/)
 
 ## Hash Table
