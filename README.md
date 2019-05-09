@@ -216,6 +216,17 @@
     - [Recursion - LeetCode](https://leetcode.com/tag/recursion/)
 
 
+## Backtracking
+
+- [Backtracking - Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
+- [Backtracking Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/backtracking-algorithms/)
+- [バックトラック法 - アドバンスド プログラミング](http://www.cc.kyoto-su.ac.jp/~yamada/ap/ap.html)
+- [バックトラック法 - ソフトウェア科学研究室](http://www.ss.cs.meiji.ac.jp/index.html)
+- OnlineJudge
+    - [Backtracking - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Backtracking&page=1&sortBy=accuracy)
+    - [Backtracking - LeetCode](https://leetcode.com/tag/backtracking/)
+
+
 ## DP
 
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
