@@ -4,6 +4,7 @@
 
 - [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
     - [Array Rearrangement - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-rearrangement/)
+    - [Array | Order Statistics - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-order-statistics/)
 - OnlineJudge
     - [Arrays - HackerRank](https://www.hackerrank.com/domains/data-structures?filters[subdomains][]=arrays)
     - [Arrays - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Arrays&page=1&sortBy=accuracy)
