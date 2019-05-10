@@ -249,6 +249,7 @@
 
 ## Bit Manipulation
 
+- [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - OnlineJudge
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
@@ -257,7 +258,6 @@
 
 - [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
-
 
 ## Misc
 
