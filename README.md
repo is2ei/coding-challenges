@@ -39,6 +39,7 @@
 
 - [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
     - [Singly Linked List - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)
+    - [Doubly Linked List - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/doubly-linked-list/)
 - [Linked list - Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [Linked Lists](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 - [線形リスト](http://www.cc.kyoto-su.ac.jp/~yamada/ap/list.html)
@@ -262,3 +263,4 @@
 ## Misc
 
 - [Digital root - Wikipedia](https://en.wikipedia.org/wiki/Digital_root)
+- [Morse code](https://en.wikipedia.org/wiki/Morse_code)
