@@ -35,6 +35,36 @@
     - [Graph - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Graph&page=1)
 
 
+## Tree
+
+- [Binary Tree Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/binary-tree-data-structure/)
+- [プログラミングコンテストでのデータ構造 2　～平衡二分探索木編～](https://www.slideshare.net/iwiwi/2-12188757)
+- Videos
+    - [Binary tree traversal: Preorder, Inorder, Postorder - mycodeschool](https://www.youtube.com/watch?v=gm8DUJJhmY4&t=12s)
+    - [Check if a binary tree is binary search tree or not - mycodeschool](https://www.youtube.com/watch?v=yEwSGhSsT0U)
+    - [Delete a node from Binary Search Tree - mycodeschool](https://www.youtube.com/watch?v=gcULXE7ViZw)
+    - [Find height of a binary tree - mycodeschool](https://www.youtube.com/watch?v=_pnqMz5nrRs)
+    - [Inorder Successor in a binary search tree - mycodeschool](https://www.youtube.com/watch?v=5cPbNCrdotA)
+    - [A program to check if a binary tree is BST or not | GeeksforGeeks](https://www.youtube.com/watch?v=H13iz0rbeeo&t=36s)
+    - [Check if two nodes are on same path in a tree | GeeksforGeeks](https://www.youtube.com/watch?v=BfcmGeCkazc&t=7s)
+    - [Tree Traversals | GeeksforGeeks](https://www.youtube.com/watch?v=IpyCqRmaKW4&t=277s)
+    - [Level Order Tree Traversal | GeeksforGeeks](https://www.youtube.com/watch?v=kQ-aoKbGKSo&t=16s)
+    - [Inorder Tree Traversal without Recursion | GeeksforGeeks](https://www.youtube.com/watch?v=VsxLHGUqAKs&t=12s)
+    - [Prim's Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=PzznKcMyu0Y)
+    - [Applications of Minimum Spanning Tree Problem | GeeksforGeeks](https://www.youtube.com/watch?v=0tBzHYoTfiY)
+    - [Binary Search Tree | Set 1 (Search and Insertion) | GeeksforGeeks](https://www.youtube.com/watch?v=qYo8BVxtoH4)
+    - [Binary Search Tree | Set 2 (Delete) | GeeksforGeeks](https://www.youtube.com/watch?v=puyl7MBqPIg)
+    - [Kruskal’s Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=3rrNH_AizMA)
+    - [Count half nodes in a Binary tree | GeeksforGeeks](https://www.youtube.com/watch?v=gP1tpbpvGyU)
+    - [Suffix Tree - Introduction | GeeksforGeeks](https://www.youtube.com/watch?v=N70NPX6xgsA)
+    - [Count leaf nodes in a Binary Tree (Iterative Method) | GeeksforGeeks](https://www.youtube.com/watch?v=N2mV5p8NOVw)
+    - [Iterative method to Count full nodes in a Binary tree | GeeksforGeeks](https://www.youtube.com/watch?v=yDY1Nfi0ipo)
+- OnlineJudge
+    - [Tree - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&badge_type=problem-solving)
+    - [Tree - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&page=1&sortBy=accuracy)
+    - [Tree - LeetCode](https://leetcode.com/tag/tree/)
+
+
 ## Linked List
 
 - [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
@@ -124,35 +154,6 @@
     - [Linked List - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists&badge_type=problem-solving)
     - [Linked List - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Linked%20List&page=1&sortBy=accuracy)
     - [Linked List - LeetCode](https://leetcode.com/tag/linked-list/)
-
-
-## Tree
-
-- [プログラミングコンテストでのデータ構造 2　～平衡二分探索木編～](https://www.slideshare.net/iwiwi/2-12188757)
-- Videos
-    - [Binary tree traversal: Preorder, Inorder, Postorder - mycodeschool](https://www.youtube.com/watch?v=gm8DUJJhmY4&t=12s)
-    - [Check if a binary tree is binary search tree or not - mycodeschool](https://www.youtube.com/watch?v=yEwSGhSsT0U)
-    - [Delete a node from Binary Search Tree - mycodeschool](https://www.youtube.com/watch?v=gcULXE7ViZw)
-    - [Find height of a binary tree - mycodeschool](https://www.youtube.com/watch?v=_pnqMz5nrRs)
-    - [Inorder Successor in a binary search tree - mycodeschool](https://www.youtube.com/watch?v=5cPbNCrdotA)
-    - [A program to check if a binary tree is BST or not | GeeksforGeeks](https://www.youtube.com/watch?v=H13iz0rbeeo&t=36s)
-    - [Check if two nodes are on same path in a tree | GeeksforGeeks](https://www.youtube.com/watch?v=BfcmGeCkazc&t=7s)
-    - [Tree Traversals | GeeksforGeeks](https://www.youtube.com/watch?v=IpyCqRmaKW4&t=277s)
-    - [Level Order Tree Traversal | GeeksforGeeks](https://www.youtube.com/watch?v=kQ-aoKbGKSo&t=16s)
-    - [Inorder Tree Traversal without Recursion | GeeksforGeeks](https://www.youtube.com/watch?v=VsxLHGUqAKs&t=12s)
-    - [Prim's Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=PzznKcMyu0Y)
-    - [Applications of Minimum Spanning Tree Problem | GeeksforGeeks](https://www.youtube.com/watch?v=0tBzHYoTfiY)
-    - [Binary Search Tree | Set 1 (Search and Insertion) | GeeksforGeeks](https://www.youtube.com/watch?v=qYo8BVxtoH4)
-    - [Binary Search Tree | Set 2 (Delete) | GeeksforGeeks](https://www.youtube.com/watch?v=puyl7MBqPIg)
-    - [Kruskal’s Algorithm for Minimum Spanning Tree | GeeksforGeeks](https://www.youtube.com/watch?v=3rrNH_AizMA)
-    - [Count half nodes in a Binary tree | GeeksforGeeks](https://www.youtube.com/watch?v=gP1tpbpvGyU)
-    - [Suffix Tree - Introduction | GeeksforGeeks](https://www.youtube.com/watch?v=N70NPX6xgsA)
-    - [Count leaf nodes in a Binary Tree (Iterative Method) | GeeksforGeeks](https://www.youtube.com/watch?v=N2mV5p8NOVw)
-    - [Iterative method to Count full nodes in a Binary tree | GeeksforGeeks](https://www.youtube.com/watch?v=yDY1Nfi0ipo)
-- OnlineJudge
-    - [Tree - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&badge_type=problem-solving)
-    - [Tree - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&page=1&sortBy=accuracy)
-    - [Tree - LeetCode](https://leetcode.com/tag/tree/)
 
 
 ## Stack
