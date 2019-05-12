@@ -40,6 +40,7 @@
 - [Binary tree - Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 - [Binary Tree Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/binary-tree-data-structure/)
     - [Binary Tree | Traversal - GeeksforGeeks](https://www.geeksforgeeks.org/binary-tree-data-structure/binary-tree-traversal/)
+- [Binary Search Tree - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 - [プログラミングコンテストでのデータ構造 2　～平衡二分探索木編～](https://www.slideshare.net/iwiwi/2-12188757)
 - Videos
     - [Binary tree traversal: Preorder, Inorder, Postorder - mycodeschool](https://www.youtube.com/watch?v=gm8DUJJhmY4&t=12s)
