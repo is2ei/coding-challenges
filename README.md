@@ -13,6 +13,7 @@
 ## Hash Table
 
 - [Hashing Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/hashing-data-structure/)
+- [Hashing](http://www.cs.princeton.edu/~rs/AlgsDS07/10Hashing.pdf)
 - OnlineJudge
     - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
 
