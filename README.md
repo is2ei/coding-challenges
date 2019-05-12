@@ -18,6 +18,14 @@
     - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
 
 
+## Queue
+
+- [Queue Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/queue-data-structure/)
+- Videos
+- OnlineJudge
+    - [Queue - LeetCode](https://leetcode.com/tag/queue/)
+
+
 ## Heap
 
 - [Heap Data Structure- GeeksforGeeks](https://www.geeksforgeeks.org/heap-data-structure/)
@@ -169,13 +177,6 @@
 - Videos
 - OnlineJudge
     - [Stack - LeetCode](https://leetcode.com/tag/stack/)
-
-
-## Queue
-
-- Videos
-- OnlineJudge
-    - [Queue - LeetCode](https://leetcode.com/tag/queue/)
 
 
 ## Sort
