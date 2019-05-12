@@ -18,6 +18,14 @@
     - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
 
 
+## Stack
+
+- [Stack Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/stack-data-structure/)
+- Videos
+- OnlineJudge
+    - [Stack - LeetCode](https://leetcode.com/tag/stack/)
+
+
 ## Queue
 
 - [Queue Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/queue-data-structure/)
@@ -170,13 +178,6 @@
     - [Linked List - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists&badge_type=problem-solving)
     - [Linked List - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Linked%20List&page=1&sortBy=accuracy)
     - [Linked List - LeetCode](https://leetcode.com/tag/linked-list/)
-
-
-## Stack
-
-- Videos
-- OnlineJudge
-    - [Stack - LeetCode](https://leetcode.com/tag/stack/)
 
 
 ## Sort
