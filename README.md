@@ -61,6 +61,7 @@
     - [Suffix Tree - Introduction | GeeksforGeeks](https://www.youtube.com/watch?v=N70NPX6xgsA)
     - [Count leaf nodes in a Binary Tree (Iterative Method) | GeeksforGeeks](https://www.youtube.com/watch?v=N2mV5p8NOVw)
     - [Iterative method to Count full nodes in a Binary tree | GeeksforGeeks](https://www.youtube.com/watch?v=yDY1Nfi0ipo)
+    - [Print Postorder traversal from given Inorder and Preorder traversals](https://www.youtube.com/watch?v=BEbX2fEl4W0)
 - OnlineJudge
     - [Tree - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&badge_type=problem-solving)
     - [Tree - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&page=1&sortBy=accuracy)
