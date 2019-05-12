@@ -53,20 +53,34 @@ struct Node
 /*You are required to complete this method */
 bool isPalindrome(Node *head)
 {
-    int arr[100] = {0};
-    int idx = 0;
+    Node* prev = head;
+    Node* first = head;
+    Node* second = head;
     
-    while (head != nullptr) {
-        arr[idx] = head->data;
-        idx++;
-        head = head->next;
+    while (second != nullptr && second->next != nullptr) {
+        prev = first;
+        first = first->next;
+        second = second->next->next;
     }
+
+    prev->next = nullptr;
     
-    for (int i = 0; i < idx; i++) {
-        if (arr[i] != arr[idx - i - 1]) {
-            return 0;
+    prev = nullptr;
+    while (first->next != nullptr) {
+        Node* next = first->next;
+        first->next = prev;
+        prev = first;
+        first = next;
+    }
+    first->next = prev;
+
+    while (head != nullptr && first != nullptr) {
+        if (head->data != first->data) {
+            return false;
         }
+        head = head->next;
+        first = first->next;
     }
-    
-    return 1;
+
+    return true;
 }
