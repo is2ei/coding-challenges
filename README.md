@@ -277,3 +277,5 @@
 
 - [Digital root - Wikipedia](https://en.wikipedia.org/wiki/Digital_root)
 - [Morse code](https://en.wikipedia.org/wiki/Morse_code)
+- OnlineJudge
+    - [Misc - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Misc&page=1&sortBy=accuracy)
