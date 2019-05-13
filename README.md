@@ -28,6 +28,7 @@
 
 ## Queue
 
+- [Priority queue - Wikipedia](https://en.wikipedia.org/wiki/Priority_queue)
 - [Queue Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/queue-data-structure/)
 - Videos
 - OnlineJudge
