@@ -2,6 +2,7 @@
 
 ## Array
 
+- [Maximum subarray problem - Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 - [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
     - [Array Rearrangement - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-rearrangement/)
     - [Array | Order Statistics - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-order-statistics/)
