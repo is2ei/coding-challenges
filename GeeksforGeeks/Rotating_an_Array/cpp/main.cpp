@@ -11,6 +11,10 @@ void printResult(vector<int>& arr) {
 
 vector<int> f(vector<int>& arr, int& d) {
 
+    /**
+     * Time complexity: O(n)
+     */
+
     if (d > arr.size()) {
         d = d % arr.size();
     }
@@ -23,6 +27,7 @@ vector<int> f(vector<int>& arr, int& d) {
     for (int i = 0; i < d; i++) {
         tmp.push_back(arr[i]);
     }
+
     return tmp;
 }
 
