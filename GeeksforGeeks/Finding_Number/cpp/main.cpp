@@ -4,6 +4,10 @@ using namespace std;
 
 int f(vector<int> arr, int x) {
 
+    /**
+     * Linear search
+     * O(n)
+     */
     for (int i = 0; i < arr.size(); i++) {
         if (arr[i] == x) {
             return i;
