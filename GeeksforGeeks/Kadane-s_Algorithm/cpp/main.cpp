@@ -4,6 +4,10 @@ using namespace std;
 
 int f(vector<int> arr) {
 
+    /**
+     * Kadane's Algorithm
+     * O(n)
+     */
     int sum = arr[0];
     int max = sum;
     for (int i = 1; i < arr.size(); i++) {
