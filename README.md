@@ -276,6 +276,7 @@
 - [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
 - [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
+- [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
 - OnlineJudge
     - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
@@ -289,7 +290,8 @@
 ## Misc
 
 - [Digital root - Wikipedia](https://en.wikipedia.org/wiki/Digital_root)
-- [Morse code](https://en.wikipedia.org/wiki/Morse_code)
+- [Morse code - Wikipedia](https://en.wikipedia.org/wiki/Morse_code)
+- [Hamming distance - Wikipedia](https://en.wikipedia.org/wiki/Hamming_distance)
 - OnlineJudge
     - [Misc - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Misc&page=1&sortBy=accuracy)
 
