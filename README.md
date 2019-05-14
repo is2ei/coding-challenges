@@ -275,6 +275,7 @@
 
 - [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
 - [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
+- [Bitwise Operators in C/C++ - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
 - OnlineJudge
