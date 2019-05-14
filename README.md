@@ -274,8 +274,10 @@
 ## Bit Manipulation
 
 - [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
+- [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - OnlineJudge
+    - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
 
