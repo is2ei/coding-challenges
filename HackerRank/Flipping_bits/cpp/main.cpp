@@ -5,21 +5,10 @@ using namespace std;
 // Complete the flippingBits function below.
 long flippingBits(long n) {
 
-    long memo[32];
-    long tmp = 1;
-    for (int i = 0; i < 32; i++) {
-        memo[i] = tmp;
-        tmp *= 2;
-    }
+    // flip 32 bit
+    unsigned int result = ~n;
 
-    long r = 0;
-    for (int i = 0; i < 32; i++) {
-        if (!((n >> i) & 1U)) {
-            r += memo[i];
-        }
-    }
-
-    return r;
+    return result;
 }
 
 int main()
