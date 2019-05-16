@@ -302,9 +302,12 @@
 
 ## C++
 
+- [cin - C++ Reference](http://www.cplusplus.com/reference/iostream/cin/)
 - [deque - C++ Reference](http://www.cplusplus.com/reference/deque/deque/)
+- [endl - C++ Reference](http://www.cplusplus.com/reference/ostream/endl/)
 - [lower_bound - C++ Reference](http://www.cplusplus.com/reference/algorithm/lower_bound/)
 - [map - C++ Reference](http://www.cplusplus.com/reference/map/map/)
+- [printf - C++ Reference](http://www.cplusplus.com/reference/cstdio/printf/)
 - [vector - C++ Reference](http://www.cplusplus.com/reference/vector/vector/)
 - OnlineJudge
     - [C++ - HackerRank](https://www.hackerrank.com/domains/cpp)
