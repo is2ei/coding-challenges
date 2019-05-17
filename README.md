@@ -283,6 +283,7 @@
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
 - OnlineJudge
+    - [Bit Manipulation - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=bit-manipulation)
     - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
