@@ -309,6 +309,7 @@
 ## Math
 
 - [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
+- [Harshad number - Wikipedia](https://en.wikipedia.org/wiki/Harshad_number)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
 
 ## Misc
