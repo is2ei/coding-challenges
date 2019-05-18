@@ -326,6 +326,7 @@
 - [endl - C++ Reference](http://www.cplusplus.com/reference/ostream/endl/)
 - [lower_bound - C++ Reference](http://www.cplusplus.com/reference/algorithm/lower_bound/)
 - [map - C++ Reference](http://www.cplusplus.com/reference/map/map/)
+- [pair - C++ Reference](http://www.cplusplus.com/reference/utility/pair/)
 - [printf - C++ Reference](http://www.cplusplus.com/reference/cstdio/printf/)
 - [scanf - C++ Reference](http://www.cplusplus.com/reference/cstdio/scanf/)
 - [vector - C++ Reference](http://www.cplusplus.com/reference/vector/vector/)
