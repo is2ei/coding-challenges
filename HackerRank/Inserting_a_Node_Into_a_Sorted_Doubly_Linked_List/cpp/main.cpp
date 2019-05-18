@@ -73,36 +73,32 @@ void free_doubly_linked_list(DoublyLinkedListNode* node) {
  *
  */
 DoublyLinkedListNode* sortedInsert(DoublyLinkedListNode* head, int data) {
-    DoublyLinkedListNode* prevNode = head;
-    DoublyLinkedListNode* newNode = new DoublyLinkedListNode(data);
+    DoublyLinkedListNode* nodeNew = new DoublyLinkedListNode(data);
 
-    while(prevNode->next != nullptr) {
-        if (data <= prevNode->data) {           
-
-            newNode->next = prevNode;
-            prevNode->prev = newNode;
-
-            return newNode;
-        }
-
-        if (data >= prevNode->data && data <= prevNode->next->data) {
-            DoublyLinkedListNode* nextNode = prevNode->next;
-
-            prevNode->next = newNode;
-            newNode->prev = prevNode;
-
-            newNode->next = nextNode;
-            nextNode->prev = prevNode;
-
-            return head;
-        } 
-
-        prevNode = prevNode->next;
+    if (nodeNew->data < head->data) {
+        nodeNew->next = head;
+        head->prev = nodeNew;
+        return nodeNew;
     }
 
-    prevNode->next = newNode;
-    newNode->prev = prevNode;
+    if (head->next == nullptr) {
+        head->next = nodeNew;
+        nodeNew->prev = head;
+        return head;
+    }
 
+    DoublyLinkedListNode* prev = head;
+    DoublyLinkedListNode* node = head->next;
+
+    while (node != nullptr && node->data < nodeNew->data) {
+        prev = node;
+        node = node->next;
+    }
+
+    prev->next = nodeNew;
+    nodeNew->prev = prev;
+    nodeNew->next = node;
+    
     return head;
 }
 
