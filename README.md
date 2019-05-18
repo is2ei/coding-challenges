@@ -267,10 +267,12 @@
 
 ## Greedy
 
+- [Greedy algorithm - Wikipedia](https://en.wikipedia.org/wiki/Greedy_algorithm)
 - [Greedy Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/greedy-algorithms/)
 - [Recent Articles on Greedy Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/greedy-algorithms/)
 - [Minimum Spanning Tree](http://www.cs.princeton.edu/courses/archive/spr07/cos226/lectures/mst.pdf)
 - [ICS 161: Design and Analysis of Algorithms](https://www.ics.uci.edu/~eppstein/161/960206.html)
+- [Activity selection problem - Wikipedia](https://en.wikipedia.org/wiki/Activity_selection_problem)
 - [最適化基礎 第８回 最小全域木問題](http://www.me.titech.ac.jp/~shioura/shioura/teaching/opt15/optim15-08.pdf)
 - OnlineJudge
     - [Greedy - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=greedy)
