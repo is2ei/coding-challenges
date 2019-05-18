@@ -267,7 +267,10 @@
 
 ## Greedy
 
+- [Greedy Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/greedy-algorithms/)
 - OnlineJudge
+    - [Greedy - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=greedy)
+    - [Greedy - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Greedy&page=1&sortBy=accuracy)
     - [Greedy - LeetCode](https://leetcode.com/tag/greedy/)
 
 
