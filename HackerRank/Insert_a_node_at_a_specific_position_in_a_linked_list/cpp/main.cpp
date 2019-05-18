@@ -72,13 +72,11 @@ SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* head, int data,
     SinglyLinkedListNode* nodeNew = new SinglyLinkedListNode(data);
 
     SinglyLinkedListNode* node = head;
-    while (position--) {
-        if (position == 0) {
-            nodeNew->next = node->next;
-            node->next = nodeNew;
-        }
+    for (; position > 1; position--) {
         node = node->next;
-    } 
+    }
+    nodeNew->next = node->next;
+    node->next = nodeNew;
 
     return head;
 }
