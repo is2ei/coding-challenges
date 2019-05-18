@@ -269,6 +269,9 @@
 
 - [Greedy Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/greedy-algorithms/)
 - [Recent Articles on Greedy Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/greedy-algorithms/)
+- [Minimum Spanning Tree](http://www.cs.princeton.edu/courses/archive/spr07/cos226/lectures/mst.pdf)
+- [ICS 161: Design and Analysis of Algorithms](https://www.ics.uci.edu/~eppstein/161/960206.html)
+- [最適化基礎 第８回 最小全域木問題](http://www.me.titech.ac.jp/~shioura/shioura/teaching/opt15/optim15-08.pdf)
 - OnlineJudge
     - [Greedy - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=greedy)
     - [Greedy - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Greedy&page=1&sortBy=accuracy)
