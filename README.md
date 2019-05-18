@@ -18,6 +18,24 @@
     - [Greedy - LeetCode](https://leetcode.com/tag/greedy/)
 
 
+### Bit Manipulation
+
+- [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
+- [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
+- [Bitwise Operators in C/C++ - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
+- [Bitwise Hacks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/)
+- [Bit Tricks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bit-tricks-competitive-programming/)
+- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html)
+    - [Counting bits set, Brian Kernighan's way](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+- [Karatsuba algorithm - Wikipedia](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
+- [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
+- [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
+- OnlineJudge
+    - [Bit Manipulation - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=bit-manipulation)
+    - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
+    - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
+
+
 ## Array
 
 - [Maximum subarray problem - Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
@@ -286,22 +304,6 @@
 
 
 
-## Bit Manipulation
-
-- [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
-- [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
-- [Bitwise Operators in C/C++ - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
-- [Bitwise Hacks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/)
-- [Bit Tricks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bit-tricks-competitive-programming/)
-- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html)
-    - [Counting bits set, Brian Kernighan's way](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-- [Karatsuba algorithm - Wikipedia](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
-- [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
-- [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
-- OnlineJudge
-    - [Bit Manipulation - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=bit-manipulation)
-    - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
-    - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
 
 ## Math
