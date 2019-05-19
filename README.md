@@ -2,7 +2,7 @@
 
 ## Algorithms
 
-## Dynamic Programming
+### Dynamic Programming
 
 - [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
 - [Recent Articles on Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/category/algorithm/dynamic-programming/)
@@ -48,7 +48,9 @@
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
 
-## Array
+## Data Structures
+
+### Array
 
 - [Maximum subarray problem - Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 - [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
