@@ -2,6 +2,12 @@
 
 ## Algorithms
 
+### Searching
+
+- [Searching Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)
+- [Recent Articles on Searching - GeeksforGeeks](https://www.geeksforgeeks.org/category/searching/)
+
+
 ### Dynamic Programming
 
 - [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
