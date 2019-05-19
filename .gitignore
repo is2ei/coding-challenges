@@ -2,6 +2,7 @@ a.out
 out
 .vscode
 project
+target
 
 # Not solved yet
 Maximum_Xor
