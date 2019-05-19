@@ -6,6 +6,10 @@
 
 - [Searching Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)
 - [Recent Articles on Searching - GeeksforGeeks](https://www.geeksforgeeks.org/category/searching/)
+- Online Judge
+    - [Search - HackerRank](https://www.hackerrank.com/domains/algorithms?badge_type=problem-solving&filters%5Bsubdomains%5D%5B%5D=search)
+    - [Searching - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Searching&page=1&sortBy=accuracy)
+    - [Binary Search - LeetCode](https://leetcode.com/tag/binary-search/)
 
 
 ### Sorting
