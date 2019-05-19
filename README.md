@@ -8,6 +8,55 @@
 - [Recent Articles on Searching - GeeksforGeeks](https://www.geeksforgeeks.org/category/searching/)
 
 
+### Sorting
+- [Sorting Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
+- [Recent Articles on Sorting - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
+- Bubble Sort
+    - [Bubble sort - Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
+    - [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/)
+    - [Recursive Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/recursive-bubble-sort/)
+    - [バブルソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bubble-sort.html)
+- Bucket Sort
+    - [Bucket Sort | GeeksforGeeks](https://www.youtube.com/watch?v=VuXbEb5ywrU)
+    - [バケットソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bucket-sort.html)
+- Comb Sort
+    - [Comb Sort | GeeksforGeeks](https://www.youtube.com/watch?v=n51GFZHXlYY)
+- Counting Sort
+    - [Counting sort - Wikipedia](https://en.wikipedia.org/wiki/Counting_sort)
+    - [Counting Sort - GeeksforGeeks](https://www.youtube.com/watch?v=7zuGmKfUt7s)
+- Heap Sort
+    - [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
+    - [ヒープソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/heap-sort.html)
+    - [ヒープソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/heapsort.html)
+- Insertion Sort
+    - [Insertion sort - Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+    - [Insertion Sort - GeeksforGeeks](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
+- Merge Sort
+    - [Merge sort - Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
+    - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
+    - [マージソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/merge-sort.html)
+    - [マージソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/mergesort.html)
+- Quick Sort
+    - [Quicksort - Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
+    - [QuickSort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/)
+    - [クイックソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/quick-sort.html)
+    - [クイックソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/quicksort.html)
+- Radix Sort
+    - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
+    - [基数ソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/radix-sort.html)
+- Selection Sort
+    - [Selection sort - Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
+    - [Selection Sort - GeeksforGeeks](https://www.youtube.com/watch?v=xWBP4lzkoyM)
+- Shell Sort
+    - [Shell Sort | GeeksforGeeks](https://www.youtube.com/watch?v=SHcPqUe2GZM)
+- Videos
+    - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
+    - [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
+- OnlineJudge
+    - [Sorting - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
+    - [Sort - LeetCode](https://leetcode.com/tag/sort/)
+
+
 ### Dynamic Programming
 
 - [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
@@ -247,51 +296,7 @@
     - [Linked List - LeetCode](https://leetcode.com/tag/linked-list/)
 
 
-## Sort
-- Bubble Sort
-    - [Bubble sort - Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
-    - [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/)
-    - [Recursive Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/recursive-bubble-sort/)
-    - [バブルソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bubble-sort.html)
-- Bucket Sort
-    - [Bucket Sort | GeeksforGeeks](https://www.youtube.com/watch?v=VuXbEb5ywrU)
-    - [バケットソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/bucket-sort.html)
-- Comb Sort
-    - [Comb Sort | GeeksforGeeks](https://www.youtube.com/watch?v=n51GFZHXlYY)
-- Counting Sort
-    - [Counting sort - Wikipedia](https://en.wikipedia.org/wiki/Counting_sort)
-    - [Counting Sort - GeeksforGeeks](https://www.youtube.com/watch?v=7zuGmKfUt7s)
-- Heap Sort
-    - [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
-    - [ヒープソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/heap-sort.html)
-    - [ヒープソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/heapsort.html)
-- Insertion Sort
-    - [Insertion sort - Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
-    - [Insertion Sort - GeeksforGeeks](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
-- Merge Sort
-    - [Merge sort - Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
-    - [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
-    - [マージソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/merge-sort.html)
-    - [マージソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/mergesort.html)
-- Quick Sort
-    - [Quicksort - Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
-    - [QuickSort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/)
-    - [クイックソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/quick-sort.html)
-    - [クイックソート - (MAX上における)アルゴリズム的問題におけるユーザーインターフェースの改良](http://www.th.cs.meiji.ac.jp/assets/researches/2005/omoto/quicksort.html)
-- Radix Sort
-    - [Radix Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nu4gDuFabIM)
-    - [基数ソート](http://www.ics.kagoshima-u.ac.jp/~fuchida/edu/algorithm/sort-algorithm/radix-sort.html)
-- Selection Sort
-    - [Selection sort - Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
-    - [Selection Sort - GeeksforGeeks](https://www.youtube.com/watch?v=xWBP4lzkoyM)
-- Shell Sort
-    - [Shell Sort | GeeksforGeeks](https://www.youtube.com/watch?v=SHcPqUe2GZM)
-- Videos
-    - [Bubble Sort | GeeksforGeeks](https://www.youtube.com/watch?v=nmhjrI-aW5o)
-    - [Quick Sort | GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
-- OnlineJudge
-    - [Sorting - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
-    - [Sort - LeetCode](https://leetcode.com/tag/sort/)
+
 
 
 ## Recursion
