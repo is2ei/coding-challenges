@@ -355,3 +355,4 @@
 ### Scala
 
 - [Array - Scala Standard Library](https://www.scala-lang.org/api/2.12.8/scala/Array.html)
+- [Set - Scala Standard Library](https://www.scala-lang.org/api/current/scala/collection/Set.html)
