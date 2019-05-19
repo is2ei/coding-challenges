@@ -2,28 +2,14 @@
 
 using namespace std;
 
-vector<int> f(vector<int> arr) {
+int f(vector<int> arr) {
 
-    sort(arr.begin(), arr.end());
-
-    vector<int> v;
-    int count = 1;
+    int result = arr[0];
     for (int i = 1; i < arr.size(); i++) {
-        if (arr[i - 1] != arr[i]) {
-            if (count % 2 != 0) {
-                v.push_back(arr[i - 1]);
-            }
-            count = 1;
-        } else {
-            count++;
-        }
-    }
-    
-    if (count % 2 != 0) {
-        v.push_back(arr[arr.size() - 1]);
+        result ^= arr[i];
     }
 
-    return v;
+    return result;
 }
 
 int main() {
@@ -43,16 +29,9 @@ int main() {
             arr.push_back(tmp);
         }
 
-        vector<int> result = f(arr);
+        int result = f(arr);
 
-        if (result.empty()) {
-            cout << 0 << endl;
-        } else {
-            for (int j = 0; j < result.size() - 1; j++) {
-                cout << result[j] << " ";
-            }
-            cout << result[result.size() - 1] << endl;
-        }
+        cout << result << endl;
     }
 
     return 0;
