@@ -20,7 +20,7 @@
 
 ### Bit Manipulation
 
-- [Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
+- [Bitwise Algorithms](https://www.geeksforgeeks.org/bitwise-algorithms/)
 - [Recent Articles on Bit Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/category/bit-magic/)
 - [Bitwise Operators in C/C++ - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
 - [Bitwise Hacks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/)
