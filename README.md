@@ -2,6 +2,17 @@
 
 ## Algorithms
 
+## Dynamic Programming
+
+- [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
+- [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
+- Videos
+- OnlineJudge
+    - [Dynamic Programming - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=dynamic-programming)
+    - [Dynamic Programming - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Dynamic%20Programming&page=1&sortBy=accuracy)
+    - [Dynamic Programming - LeetCode](https://leetcode.com/tag/dynamic-programming/)
+
+
 ### Greedy
 
 - [Greedy algorithm - Wikipedia](https://en.wikipedia.org/wiki/Greedy_algorithm)
@@ -289,21 +300,6 @@
 - OnlineJudge
     - [Backtracking - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Backtracking&page=1&sortBy=accuracy)
     - [Backtracking - LeetCode](https://leetcode.com/tag/backtracking/)
-
-
-## Dynamic Programming
-
-- [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
-- [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
-- Videos
-- OnlineJudge
-    - [Dynamic Programming - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Dynamic%20Programming&page=1&sortBy=accuracy)
-    - [Dynamic Programming - LeetCode](https://leetcode.com/tag/dynamic-programming/)
-
-
-
-
-
 
 
 ## Math
