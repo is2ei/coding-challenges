@@ -334,7 +334,9 @@
 - OnlineJudge
     - [Misc - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Misc&page=1&sortBy=accuracy)
 
-## C++
+## Languages
+
+### C++
 
 - [cin - C++ Reference](http://www.cplusplus.com/reference/iostream/cin/)
 - [deque - C++ Reference](http://www.cplusplus.com/reference/deque/deque/)
@@ -348,3 +350,8 @@
 - [C++ Programming Language - GeeksforGeeks](https://www.geeksforgeeks.org/c-plus-plus/)
 - OnlineJudge
     - [C++ - HackerRank](https://www.hackerrank.com/domains/cpp)
+
+
+### Scala
+
+- [Array - Scala Standard Library](https://www.scala-lang.org/api/2.12.8/scala/Array.html)
