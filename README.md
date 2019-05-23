@@ -351,6 +351,9 @@
 - OnlineJudge
     - [C++ - HackerRank](https://www.hackerrank.com/domains/cpp)
 
+### Java
+
+- [How to get rid of Java TLE problem](https://www.geeksforgeeks.org/how-to-get-rid-of-java-tle-problem/)
 
 ### Scala
 
