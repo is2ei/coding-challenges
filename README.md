@@ -66,6 +66,7 @@
 
 - [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
 - [Recent Articles on Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/category/algorithm/dynamic-programming/)
+- [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
 - Videos
 - OnlineJudge
