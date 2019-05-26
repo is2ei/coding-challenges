@@ -13,6 +13,7 @@
 
 
 ### Sorting
+
 - [Sorting Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
 - [Recent Articles on Sorting - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
 - Bubble Sort
@@ -112,6 +113,7 @@
 ### Array
 
 - [Maximum subarray problem - Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+- [Recent Articles on Arrays](https://www.geeksforgeeks.org/category/c-arrays/)
 - [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
     - [Array Rearrangement - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-rearrangement/)
     - [Array | Order Statistics - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/array-order-statistics/)
