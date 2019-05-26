@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int f(int a, int b) {
+    int result = 0;
+    for (int i = 0; i < 2; i++) {
+        if (a > b) {
+            result += a;
+            a--;
+        } else {
+            result += b;
+            b--;
+        }
+    }
+
+    return result;
+}
+
+int main() {
+
+    int a, b;
+    cin >> a >> b;
+
+    int result = f(a, b);
+    cout << result << endl;
+
+    return 0;
+}
