@@ -15,7 +15,7 @@
 ### Sorting
 
 - [Sorting Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
-- [Recent Articles on Sorting - GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
+- [Recent Articles on Sorting - GeeksforGeeks](https://www.geeksforgeeks.org/category/sorting/)
 - Bubble Sort
     - [Bubble sort - Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
     - [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/)
@@ -109,6 +109,24 @@
     - [Bit Manipulation - LeetCode](https://leetcode.com/tag/bit-manipulation/)
 
 
+### Recursion
+
+- OnlineJudge
+    - [Recursion - LeetCode](https://leetcode.com/tag/recursion/)
+
+
+### Backtracking
+
+- [Backtracking - Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
+- [Backtracking Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/backtracking-algorithms/)
+- [バックトラック法 - アドバンスド プログラミング](http://www.cc.kyoto-su.ac.jp/~yamada/ap/ap.html)
+- [バックトラック法 - ソフトウェア科学研究室](http://www.ss.cs.meiji.ac.jp/index.html)
+- OnlineJudge
+    - [Backtracking - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Backtracking&page=1&sortBy=accuracy)
+    - [Backtracking - LeetCode](https://leetcode.com/tag/backtracking/)
+
+
+
 ## Data Structures
 
 ### Array
@@ -127,12 +145,12 @@
     - [Array - LeetCode](https://leetcode.com/tag/array/)
 
 
-## Matrix
+### Matrix
 
 - [Matrix Archives - GeeksforGeeks](https://www.geeksforgeeks.org/matrix/)
  
 
-## Hash Table
+### Hash Table
 
 - [Hashing Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/hashing-data-structure/)
 - [Hashing](http://www.cs.princeton.edu/~rs/AlgsDS07/10Hashing.pdf)
@@ -140,7 +158,7 @@
     - [Hash Table - LeetCode](https://leetcode.com/tag/hash-table/)
 
 
-## Stack
+### Stack
 
 - [Stack Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/stack-data-structure/)
 - Videos
@@ -148,7 +166,7 @@
     - [Stack - LeetCode](https://leetcode.com/tag/stack/)
 
 
-## Queue
+### Queue
 
 - [Priority queue - Wikipedia](https://en.wikipedia.org/wiki/Priority_queue)
 - [Queue Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/queue-data-structure/)
@@ -157,7 +175,7 @@
     - [Queue - LeetCode](https://leetcode.com/tag/queue/)
 
 
-## Heap
+### Heap
 
 - [Heap Data Structure- GeeksforGeeks](https://www.geeksforgeeks.org/heap-data-structure/)
 - [An array implementation of a heap](https://cs.nyu.edu/courses/spring12/CSCI-GA.3033-014/Assignment3/heap.html)
@@ -169,7 +187,7 @@
     - [Heap - LeetCode](https://leetcode.com/tag/heap/)
 
 
-## Graph
+### Graph
 
 - [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - OnlineJudge
@@ -177,7 +195,7 @@
     - [Graph - LeetCode](https://leetcode.com/tag/graph/)
 
 
-## Tree
+### Tree
 
 - [Binary tree - Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 - [Binary Tree Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/binary-tree-data-structure/)
@@ -212,7 +230,7 @@
     - [Tree - LeetCode](https://leetcode.com/tag/tree/)
 
 
-## Linked List
+### Linked List
 
 - [Linked List Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
     - [Singly Linked List - GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)
@@ -301,26 +319,6 @@
     - [Linked List - HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists&badge_type=problem-solving)
     - [Linked List - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Linked%20List&page=1&sortBy=accuracy)
     - [Linked List - LeetCode](https://leetcode.com/tag/linked-list/)
-
-
-
-
-
-## Recursion
-
-- OnlineJudge
-    - [Recursion - LeetCode](https://leetcode.com/tag/recursion/)
-
-
-## Backtracking
-
-- [Backtracking - Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
-- [Backtracking Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/backtracking-algorithms/)
-- [バックトラック法 - アドバンスド プログラミング](http://www.cc.kyoto-su.ac.jp/~yamada/ap/ap.html)
-- [バックトラック法 - ソフトウェア科学研究室](http://www.ss.cs.meiji.ac.jp/index.html)
-- OnlineJudge
-    - [Backtracking - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Backtracking&page=1&sortBy=accuracy)
-    - [Backtracking - LeetCode](https://leetcode.com/tag/backtracking/)
 
 
 ## Math
