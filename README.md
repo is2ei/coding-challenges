@@ -104,6 +104,7 @@
 - [Karatsuba algorithm - Wikipedia](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
+- [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361)
 - OnlineJudge
     - [Bit Manipulation - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=bit-manipulation)
     - [Bit Magic - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Bit%20Magic&page=1&sortBy=accuracy)
