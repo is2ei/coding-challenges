@@ -6,6 +6,7 @@
 
 - [Searching Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)
 - [Recent Articles on Searching - GeeksforGeeks](https://www.geeksforgeeks.org/category/searching/)
+- [線形探索を極める！ 〜 for 文で色んなことができることを知る 〜](https://qiita.com/drken/items/fdae15f6e9ede543b97a)
 - Online Judge
     - [Search - HackerRank](https://www.hackerrank.com/domains/algorithms?badge_type=problem-solving&filters%5Bsubdomains%5D%5B%5D=search)
     - [Searching - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Searching&page=1&sortBy=accuracy)
