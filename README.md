@@ -328,6 +328,7 @@
 - [Harshad number - Wikipedia](https://en.wikipedia.org/wiki/Harshad_number)
 - [Prime number - Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
+- [やさしい整数論](https://www.slideshare.net/kazumamikami1/ss-24712271)
 
 ## Misc
 
