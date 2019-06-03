@@ -338,6 +338,7 @@
 - [Hamming distance - Wikipedia](https://en.wikipedia.org/wiki/Hamming_distance)
 - [計算量とオーダー](https://www.slideshare.net/KMC_JP/cc-and-order)
 - [計算量オーダーの求め方を総整理！ 〜 どこから log が出て来るか 〜](https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0)
+- [特集！知らないと損をする計算量の話](https://qiita.com/drken/items/18b3b3db5735241465ef)
 - OnlineJudge
     - [Misc - GeeksforGeeks](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Misc&page=1&sortBy=accuracy)
 
