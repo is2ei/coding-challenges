@@ -69,6 +69,7 @@
 - [Recent Articles on Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/category/algorithm/dynamic-programming/)
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
+- [典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～](https://qiita.com/drken/items/a5e6fe22863b7992efdb)
 - Videos
 - OnlineJudge
     - [Dynamic Programming - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=dynamic-programming)
