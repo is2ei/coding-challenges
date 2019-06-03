@@ -328,6 +328,8 @@
 
 ## Math
 
+- [Mathematical Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/mathematical-algorithms/)
+- [Recent articles on Mathematical Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/mathematical-algorithms/)
 - [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
 - [Harshad number - Wikipedia](https://en.wikipedia.org/wiki/Harshad_number)
 - [Prime number - Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
