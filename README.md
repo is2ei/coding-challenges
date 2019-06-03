@@ -71,6 +71,7 @@
 - [プログラミングコンテストでの動的計画法 ](https://www.slideshare.net/iwiwi/ss-3578511)
 - [典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～](https://qiita.com/drken/items/a5e6fe22863b7992efdb)
 - [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
+- [部分列 DP --- 文字列の部分文字列を重複なく走査する DP の特集](https://qiita.com/drken/items/a207e5ae3ea2cf17f4bd)
 - Videos
 - OnlineJudge
     - [Dynamic Programming - HackerRank](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=dynamic-programming)
@@ -332,6 +333,7 @@
 - [Prime number - Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
 - [やさしい整数論](https://www.slideshare.net/kazumamikami1/ss-24712271)
+- [統計検定 1 級に合格する方法](https://qiita.com/drken/items/089b8443305df047b44e)
 
 ## Misc
 
