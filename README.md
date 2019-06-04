@@ -330,6 +330,7 @@
 
 - [Mathematical Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/mathematical-algorithms/)
     - [Mathematical Algorithms | GCD & LCM - GeeksforGeeks](https://www.geeksforgeeks.org/mathematical-algorithms/mathematical-algorithms-gcd-lcm/)
+    - [Mathematical Algorithms | Prime Factorization and Divisors](https://www.geeksforgeeks.org/mathematical-algorithms/mathematical-algorithms-prime-factorization-divisors/)
 - [Recent articles on Mathematical Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/mathematical-algorithms/)
 - [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
 - [Harshad number - Wikipedia](https://en.wikipedia.org/wiki/Harshad_number)
