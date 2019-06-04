@@ -333,6 +333,7 @@
 - [Power set - Wikipedia](https://en.wikipedia.org/wiki/Power_set)
 - [Harshad number - Wikipedia](https://en.wikipedia.org/wiki/Harshad_number)
 - [Prime number - Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
+- [Euclidean algorithm - Wikipedia](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 - [三角形の成立条件とその証明](https://mathtrain.jp/seiritu)
 - [やさしい整数論](https://www.slideshare.net/kazumamikami1/ss-24712271)
 - [統計検定 1 級に合格する方法](https://qiita.com/drken/items/089b8443305df047b44e)
