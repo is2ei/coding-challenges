@@ -70,22 +70,18 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
  */
 SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) {
 
-    SinglyLinkedListNode* node = head;
-
     if (position == 0) {
-        head = head->next;
-        free(node);
+        SinglyLinkedListNode* next = head->next;
+        std::free(head);
+        return next;
     }
 
-    while(position--) {
-        if (position == 0) {
-            cout << node->data << endl;
-            SinglyLinkedListNode* next = node->next;
-            node->next = node->next->next;
-            std::free(next);
-        }
+    SinglyLinkedListNode* node = head;
+    position--;
+    while (position--) {
         node = node->next;
     }
+    node->next = node->next->next;
 
     return head;
 }
