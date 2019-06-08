@@ -1,20 +1,14 @@
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
-class Solution {
+public class Solution {
 
-    class SinglyLinkedListNode {
+    static class SinglyLinkedListNode {
         public int data;
         public SinglyLinkedListNode next;
 
@@ -24,7 +18,7 @@ class Solution {
         }
     }
 
-    class SinglyLinkedList {
+    static class SinglyLinkedList {
         public SinglyLinkedListNode head;
         public SinglyLinkedListNode tail;
 
@@ -33,7 +27,7 @@ class Solution {
             this.tail = null;
         }
 
-        public void InsertNode(int nodeData) {
+        public void insertNode(int nodeData) {
             SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
 
             if (this.head == null) {
@@ -46,14 +40,14 @@ class Solution {
         }
     }
 
-    static void PrintSinglyLinkedList(SinglyLinkedListNode node, string sep, TextWriter textWriter) {
+    public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
         while (node != null) {
-            textWriter.Write(node.data);
+            bufferedWriter.write(String.valueOf(node.data));
 
             node = node.next;
 
             if (node != null) {
-                textWriter.Write(sep);
+                bufferedWriter.write(sep);
             }
         }
     }
@@ -74,7 +68,8 @@ class Solution {
             return head.next;
         }
         SinglyLinkedListNode node = head;
-        while (position > 1) {
+        position--;
+        while (position > 0) {
             position--;
             node = node.next;
         }
@@ -82,26 +77,33 @@ class Solution {
         return head;
     }
 
-    static void Main(string[] args) {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         SinglyLinkedList llist = new SinglyLinkedList();
 
-        int llistCount = Convert.ToInt32(Console.ReadLine());
+        int llistCount = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         for (int i = 0; i < llistCount; i++) {
-            int llistItem = Convert.ToInt32(Console.ReadLine());
-            llist.InsertNode(llistItem);
+            int llistItem = scanner.nextInt();
+            scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+            llist.insertNode(llistItem);
         }
 
-        int position = Convert.ToInt32(Console.ReadLine());
+        int position = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         SinglyLinkedListNode llist1 = deleteNode(llist.head, position);
 
-        PrintSinglyLinkedList(llist1, " ", textWriter);
-        textWriter.WriteLine();
+        printSinglyLinkedList(llist1, " ", bufferedWriter);
+        bufferedWriter.newLine();
 
-        textWriter.Flush();
-        textWriter.Close();
+        bufferedWriter.close();
+
+        scanner.close();
     }
 }
