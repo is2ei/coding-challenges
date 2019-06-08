@@ -48,15 +48,15 @@ def print_singly_linked_list(node, sep, fptr):
 #
 def deleteNode(head, position):
     if position == 0:
-        head = head.next
-
+        return head.next
+    
     node = head
 
-    while position > 0:
+    while position > 1:
         position -= 1
-        if position == 0:
-            node.next = node.next.next
         node = node.next
+
+    node.next = node.next.next
 
     return head
 
