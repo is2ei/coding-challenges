@@ -64,19 +64,14 @@ public class Solution {
      *
      */
     static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int data, int position) {
-        SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
-
         SinglyLinkedListNode node = head;
-        while (position > 0) {
+        while (position > 1) {
             position--;
-
-            if (position == 0) {
-                newNode.next = node.next;
-                node.next = newNode;
-            }
             node = node.next;
         }
-
+        SinglyLinkedListNode nodeNew = new SinglyLinkedListNode(data);
+        nodeNew.next = node.next;
+        node.next = nodeNew;
         return head;
     }
 
