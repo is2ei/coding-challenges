@@ -59,16 +59,14 @@ func printSinglyLinkedList(node *SinglyLinkedListNode, sep string, writer *bufio
  */
 func deleteNode(head *SinglyLinkedListNode, position int32) *SinglyLinkedListNode {
 	if position == 0 {
-		head = head.next
+		return head.next
 	}
 	node := head
-	for position > 0 {
+	for position > 1 {
 		position--
-		if position == 0 {
-			node.next = node.next.next
-		}
 		node = node.next
 	}
+	node.next = node.next.next
 	return head
 }
 
