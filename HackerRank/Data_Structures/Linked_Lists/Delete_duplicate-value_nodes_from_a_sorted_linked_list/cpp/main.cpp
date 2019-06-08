@@ -72,18 +72,13 @@ SinglyLinkedListNode* removeDuplicates(SinglyLinkedListNode* head) {
     SinglyLinkedListNode* n = head;
     while (n->next != nullptr) {
         if (n->data == n->next->data) {
-            if (n->next->next == nullptr) {
-                n->next = nullptr;
-            } else {
-                n->next = n->next->next;
-            }
-
+            SinglyLinkedListNode* next = n->next;
+            n->next = n->next->next;
+            std::free(next);
             continue;
         }
-
         n = n->next;
     }
-    
     return head;
 }
 
