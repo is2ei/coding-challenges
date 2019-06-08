@@ -1,49 +1,49 @@
 package main
 
 import (
-    "bufio"
-    "fmt"
-    "io"
-    "os"
-    "strconv"
-    "strings"
+	"bufio"
+	"fmt"
+	"io"
+	"os"
+	"strconv"
+	"strings"
 )
 
 type SinglyLinkedListNode struct {
-    data int32
-    next *SinglyLinkedListNode
+	data int32
+	next *SinglyLinkedListNode
 }
 
 type SinglyLinkedList struct {
-    head *SinglyLinkedListNode
-    tail *SinglyLinkedListNode
+	head *SinglyLinkedListNode
+	tail *SinglyLinkedListNode
 }
 
 func (singlyLinkedList *SinglyLinkedList) insertNodeIntoSinglyLinkedList(nodeData int32) {
-    node := &SinglyLinkedListNode {
-        next: nil,
-        data: nodeData,
-    }
+	node := &SinglyLinkedListNode{
+		next: nil,
+		data: nodeData,
+	}
 
-    if singlyLinkedList.head == nil {
-        singlyLinkedList.head = node
-    } else {
-        singlyLinkedList.tail.next = node
-    }
+	if singlyLinkedList.head == nil {
+		singlyLinkedList.head = node
+	} else {
+		singlyLinkedList.tail.next = node
+	}
 
-    singlyLinkedList.tail = node
+	singlyLinkedList.tail = node
 }
 
 func printSinglyLinkedList(node *SinglyLinkedListNode, sep string, writer *bufio.Writer) {
-    for node != nil {
-        fmt.Fprintf(writer, "%d", node.data)
+	for node != nil {
+		fmt.Fprintf(writer, "%d", node.data)
 
-        node = node.next
+		node = node.next
 
-        if node != nil {
-            fmt.Fprintf(writer, sep)
-        }
-    }
+		if node != nil {
+			fmt.Fprintf(writer, sep)
+		}
+	}
 }
 
 // Complete the insertNodeAtPosition function below.
@@ -58,71 +58,67 @@ func printSinglyLinkedList(node *SinglyLinkedListNode, sep string, writer *bufio
  *
  */
 func insertNodeAtPosition(llist *SinglyLinkedListNode, data int32, position int32) *SinglyLinkedListNode {
-
-    nodeNew := &SinglyLinkedListNode {
-        next: nil,
-        data: data,
-    }
-
-    node := llist
-    for position > 1 {
-        node = node.next
-        position -= 1
-    }
-    nodeNew.next = node.next
-    node.next = nodeNew
-
-    return llist
+	node := llist
+	for position > 1 {
+		position--
+		node = node.next
+	}
+	nodeNew := &SinglyLinkedListNode{
+		data: data,
+		next: node.next,
+	}
+	node.next = nodeNew
+	return llist
 }
 
 func main() {
-    reader := bufio.NewReaderSize(os.Stdin, 1024 * 1024)
+	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
-    stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
-    checkError(err)
+	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+	checkError(err)
 
-    defer stdout.Close()
+	defer stdout.Close()
 
-    writer := bufio.NewWriterSize(stdout, 1024 * 1024)
+	writer := bufio.NewWriterSize(stdout, 1024*1024)
 
-    llistCount, err := strconv.ParseInt(readLine(reader), 10, 64)
-    checkError(err)
+	llistCount, err := strconv.ParseInt(readLine(reader), 10, 64)
+	checkError(err)
 
-    llist := SinglyLinkedList{}
-    for i := 0; i < int(llistCount); i++ {
-        llistItemTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
-        checkError(err)
-        llistItem := int32(llistItemTemp)
-        llist.insertNodeIntoSinglyLinkedList(llistItem)
-    }
+	llist := SinglyLinkedList{}
+	for i := 0; i < int(llistCount); i++ {
+		llistItemTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
+		checkError(err)
+		llistItem := int32(llistItemTemp)
+		llist.insertNodeIntoSinglyLinkedList(llistItem)
+	}
 
-    dataTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
-    checkError(err)
-    data := int32(dataTemp)
+	dataTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
+	checkError(err)
+	data := int32(dataTemp)
 
-    positionTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
-    checkError(err)
-    position := int32(positionTemp)
+	positionTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
+	checkError(err)
+	position := int32(positionTemp)
 
-    llist_head := insertNodeAtPosition(llist.head, data, position)
+	llist_head := insertNodeAtPosition(llist.head, data, position)
 
-    printSinglyLinkedList(llist_head, " ", writer)
-    fmt.Fprintf(writer, "\n")
+	printSinglyLinkedList(llist_head, " ", writer)
+	fmt.Fprintf(writer, "\n")
 
-    writer.Flush()
+	writer.Flush()
 }
 
 func readLine(reader *bufio.Reader) string {
-    str, _, err := reader.ReadLine()
-    if err == io.EOF {
-        return ""
-    }
+	str, _, err := reader.ReadLine()
+	if err == io.EOF {
+		return ""
+	}
 
-    return strings.TrimRight(string(str), "\r\n")
+	return strings.TrimRight(string(str), "\r\n")
 }
 
 func checkError(err error) {
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 }
