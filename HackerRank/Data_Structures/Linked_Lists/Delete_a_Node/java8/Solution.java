@@ -52,7 +52,7 @@ public class Solution {
         }
     }
 
-    // Complete the deleteNode function below.
+// Complete the deleteNode function below.
 
     /*
      * For your reference:
@@ -65,16 +65,15 @@ public class Solution {
      */
     static SinglyLinkedListNode deleteNode(SinglyLinkedListNode head, int position) {
         if (position == 0) {
-            head = head.next;
+            return head.next;
         }
         SinglyLinkedListNode node = head;
+        position--;
         while (position > 0) {
             position--;
-            if (position == 0) {
-                node.next = node.next.next;
-            }
             node = node.next;
         }
+        node.next = node.next.next;
         return head;
     }
 
