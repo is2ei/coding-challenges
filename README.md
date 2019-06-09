@@ -104,6 +104,7 @@
 - [Bit Tricks for Competitive Programming - GeeksforGeeks](https://www.geeksforgeeks.org/bit-tricks-competitive-programming/)
 - [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html)
     - [Counting bits set, Brian Kernighan's way](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+- [Two's complement - Wikipedia](https://en.wikipedia.org/wiki/Two%27s_complement)
 - [Karatsuba algorithm - Wikipedia](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 - [二進法と十進法の変換方法と計算例](https://mathtrain.jp/binary)
 - [すごくシンプルなハミング距離計算](https://tech-blog.cerevo.com/archives/228/)
